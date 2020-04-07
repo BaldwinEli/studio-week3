@@ -18,7 +18,7 @@
     #map {
       position: absolute;
       top: 200px;
-      bottom: 0;
+      bottom: 400px;
       width: 100%;
     }  </style>
   <!-- Adding styling info for page layout by reading in a CSS file -->
@@ -40,9 +40,9 @@
   <script>
 
     // Initialize the map
-    mapboxgl.accessToken = '<your access token here>';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYmFsZHdpbmVsaSIsImEiOiJjazVoNHU4c3EwMDJvM2xtYmN6aDU4aTR4In0.dtzx1MAhYCiO4RkL_pcGWA';
     var map = new mapboxgl.Map({
-      container: 'map', // container id
+      container: "map", // container id
       style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
       center: [-122.44, 37.76], // starting position [lng, lat]
       zoom: 11 // starting zoom
